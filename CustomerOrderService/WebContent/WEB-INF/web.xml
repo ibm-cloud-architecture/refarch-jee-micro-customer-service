@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+	<display-name>CustomerOrderService</display-name>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	
+	<security-role>
+		<role-name>cn=SecureShopper,dc=purplecompute,dc=com</role-name>
+	</security-role>
+	<security-constraint>
+		<display-name>CustomerServices</display-name>
+		<web-resource-collection>
+			<web-resource-name>Customer</web-resource-name>
+			<url-pattern>/Customer/*</url-pattern>
+		</web-resource-collection>
+		<auth-constraint><role-name>cn=SecureShopper,dc=purplecompute,dc=com</role-name></auth-constraint>
+	</security-constraint>
+	<login-config>
+		<auth-method>BASIC</auth-method>
+		<realm-name>184.172.250.193:31252</realm-name>
+	</login-config>
+	 
+</web-app>
