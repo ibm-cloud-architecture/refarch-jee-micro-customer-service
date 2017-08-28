@@ -1,6 +1,6 @@
 ### Overview
 
-CustomerOrderService is a microservice that redirects service requests from BFF layer to Legacy Backend Layer. This service is introduced to implement [Strangler Pattern] (https://www.ibm.com/developerworks/cloud/library/cl-strangler-application-pattern-microservices-apps-trs/index.html). Currently it only redirects the requests to EJB layer. In future it can be used to redirect requests to new implementations of services using new technologies e.g. nodejs and nosql
+CustomerOrderService is a microservice that redirects service requests from BFF layer to Legacy Backend Layer. This service is introduced to implement [Strangler Pattern](https://www.ibm.com/developerworks/cloud/library/cl-strangler-application-pattern-microservices-apps-trs/index.html). Currently it only redirects the requests to EJB layer. In future it can be used to redirect requests to new implementations of services using new technologies e.g. nodejs and nosql
 
 The CustomerOrderService exposes the following interfaces
 - /Customer
