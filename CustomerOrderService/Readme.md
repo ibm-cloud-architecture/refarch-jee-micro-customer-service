@@ -4,14 +4,14 @@ This is an intermediate REST interface module which redirects the REST requests 
 
 The CustomerOrderService exposes the following interfaces
 
-/Customer
-/Customer/Address
-/Customer/OpenOrder/LineItem
-/Customer/OpenOrder/LineItem/id
-/Customer/OpenOrder
-/Customer/Orders
-/Customer/TypeForm
-/Customer/Info
+- /Customer
+- /Customer/Address
+- /Customer/OpenOrder/LineItem
+- /Customer/OpenOrder/LineItem/id
+- /Customer/OpenOrder
+- /Customer/Orders
+- /Customer/TypeForm
+- /Customer/Info
 
 <br>
 
