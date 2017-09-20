@@ -24,7 +24,7 @@
         basicRegistry element. Specify your own user name below in the name attribute of the user element. For the password,
         generate an encoded password using bin/securityUtility encode and add it in the password attribute of the user element.
         Then uncomment the user element. -->
-<ldapRegistry baseDN="dc=purplecompute,dc=com" bindDN="cn=admin,dc=purplecompute,dc=com" bindPassword="{xor}Dz4sLChvLTs=" host="184.172.250.193" id="ldap" ignoreCase="true" ldapType="Custom" port="31252" realm="184.172.250.193:31252" searchTimeout="8m">
+<ldapRegistry baseDN="dc=purplecompute,dc=com" bindDN="cn=admin,dc=purplecompute,dc=com" bindPassword="{xor}Dz4sLChvLTs=" host="168.1.140.158" id="ldap" ignoreCase="true" ldapType="Custom" port="32075" realm="168.1.140.158:32075" searchTimeout="8m">
      
     <contextPool enabled="true" initialSize="1" maxSize="0" preferredSize="3" timeout="0s" waitTime="3000ms"/>
     
