@@ -4,5 +4,5 @@ com.ibm.websphere.ltpa.version=1.0
 com.ibm.websphere.ltpa.3DESKey=MFIaesoTl+GUn9n9bbimfRNN0ZZRB8HoQ69OFobJV9g\=
 com.ibm.websphere.CreationHost=localhost
 com.ibm.websphere.ltpa.PrivateKey=hv9ESUOMD8CiYXge3lGc6VQLp+VAoL9qjrNQKXDCEZh/REJgoZc4Hinf90g1rL1ukuHWzdWYgQ1cBN4rKYmEH34FOAxneR7jBEMrdm4qUyfFNRPGlmgh96IUwFKe348DGElm3+bIRtU/Mwu3hyLkW/5YAxk6fumFYK02B8gyNYVPNKK2IYyLqklGGg16LhM+gpQ9lUHKAAG+wTuY4A1IidD2C3xtQhM5lh/DaLycHD5M6lW5qjR84hoUph8QwOm3PiIud7sptVDQqLFKwEZW7rFwarn1mwQzvTCsQjCEgbhKL/JMhe054gz4SFFcGkSlXIk/RDjuIh71gGHvgPr0wSRz2AJ11zRYDep21oC6ydQ\=
-com.ibm.websphere.ltpa.Realm=184.172.250.193\:31252
+com.ibm.websphere.ltpa.Realm=168.1.140.158\:32075
 com.ibm.websphere.ltpa.PublicKey=ANlBa1HBE3TCiXBu083r3fcBpsduXbJi7NeV6NPmR86RimFP7Tn+TpzDtc5ipjPHg/AILr+3NrPHrRu5/Xk9tpWKRp4M5skquGz8ipvP3+UuAHjjvpkRguJXD9WOT5ZWbayO8H1PcD/iRSLKjAUyAJVnCUaLp6DGGrLajWZ+GS+5AQAB
